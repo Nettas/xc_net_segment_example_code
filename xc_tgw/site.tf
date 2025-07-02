@@ -35,7 +35,7 @@ resource "volterra_aws_tgw_site" "tgw_site" {
 
         subnet_param {
           ipv4 = "10.100.10.0/24"
-          #   ipv6 = "1234:568:abcd:9100::/64"
+          ipv6 = "1234:568:abcd:9100::/64"
         }
       }
       inside_subnet {
